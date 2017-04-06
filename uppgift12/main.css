@@ -1,6 +1,7 @@
 table{
 	text-align:left;
 	background-color:limegreen;
+	border-collapse: collapse;
 }
 tr td{
 	border-bottom:1px solid limegreen;
