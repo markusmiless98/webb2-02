@@ -1,5 +1,10 @@
-li{
-	margin-left:35px;
-	list-style:square;
-	color:blue;
+ol {
+	list-style-type: upper-alpha;
+	color: green;
+}
+
+ol  li ul {
+	list-style-type: square;
+	color: crimson;
+	margin-bottom: 20px;
 }
