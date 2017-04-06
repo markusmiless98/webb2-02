@@ -1,6 +1,12 @@
+body {
+	font-family: arial, sans-serif;
+}
+
 .ex1{
 	letter-spacing:-1px;
+	word-spacing: -1px;
 }
 .ex2{
 	letter-spacing:1px;
+	word-spacing: 5px;
 }
