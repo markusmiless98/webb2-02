@@ -1,0 +1,14 @@
+table{
+	border-collapse:collapse;
+}
+tr td, th{
+	padding:9px;
+}
+tr:nth-child(even) td:nth-child(2n+1), tr:nth-child(even) th:nth-child(2n+1), tr:nth-child(odd) td:nth-child(2n), tr:nth-child(odd) th:nth-child(2n){
+	background-color:lightgrey;
+	color:lightgrey;
+}
+tr:nth-child(even) td:nth-child(2n), tr:nth-child(even) th:nth-child(2n), tr:nth-child(odd) td:nth-child(2n+1), tr:nth-child(odd) th:nth-child(2n+1){
+	background-color:grey;
+	color:grey;
+}

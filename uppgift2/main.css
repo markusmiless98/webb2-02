@@ -1,0 +1,6 @@
+span{
+	background-color:yellow;
+}
+p:nth-child(2) span:nth-child(2){
+	background-color:orange;
+}

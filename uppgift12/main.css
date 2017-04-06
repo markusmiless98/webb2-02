@@ -1,0 +1,17 @@
+table{
+	text-align:left;
+	background-color:limegreen;
+}
+tr td{
+	border-bottom:1px solid limegreen;
+	padding-left:3px;
+	background-color:lightgreen;
+}
+th{
+	color:white;
+	padding-left:2px;
+	min-width:90px;
+}
+body{
+	background-color:lightblue;
+}

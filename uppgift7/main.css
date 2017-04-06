@@ -1,0 +1,11 @@
+li{
+	list-style-type:none;
+}
+
+li:nth-of-type(odd):before{
+	content:url("check.png");
+}
+
+li:nth-of-type(even):before{
+	content:url("cross.png");
+}

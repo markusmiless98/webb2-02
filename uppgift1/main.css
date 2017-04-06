@@ -1,0 +1,7 @@
+
+span:nth-child(1){
+	background-color:yellow;
+}
+span:nth-child(2){
+	background-color:orange;
+}

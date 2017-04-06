@@ -1,0 +1,11 @@
+.ex1{
+	font-size:200%;
+	text-transform:uppercase;
+}
+.ex2{
+	font-size:180%;
+	text-transform:uppercase;
+}
+.ex2:first-letter{
+	font-size:125%
+}
