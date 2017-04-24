@@ -1,0 +1,41 @@
+blockquote ~ p, p:nth-of-type(1){
+	max-width:90%;
+}
+blockquote ~ p{
+	max-width:62%;
+}
+blockquote ~ p:nth-of-type(n+4){
+	max-width:90%;
+}
+blockquote{
+	background-color:lightgrey;
+	border: 5px double purple;
+	z-index:2;
+	position:absolute;
+	width:240px;
+	height:240px;
+	top:110px;
+	left:60%;
+}
+blockquote > p{
+	padding:10px;
+	padding-top:1px;
+	padding-bottom:0px;
+}
+blockquote > p:first-of-type:before{
+    content: "\201c";
+}
+blockquote > p:nth-of-type(3):after{
+	content:"\201d";
+}
+blockquote > p:last-of-type{
+	text-align:right;
+	font-style:italic;
+}
+blockquote > p:last-of-type:before{
+	content:"- ";
+}
+blockquote ~ p{
+	position:relative;
+	top:0px;
+}
