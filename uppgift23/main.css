@@ -1,0 +1,17 @@
+body{
+	background-color:#b3ffb3;
+}
+div{
+	position:absolute;
+	top:25%;
+	left:200px;
+	right:400px;
+	margin:0 auto;
+	max-width:400px;
+	min-width:240px;
+	
+	padding:20px;
+	text-align:center;
+	background-color:white;
+	
+}
